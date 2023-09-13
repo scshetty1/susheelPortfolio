@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#side{
+    background-color: aqua;
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    z-index: 2;
+    left: -100px;
+    transform: skew(-8deg,0deg)
+    
+}
+
+#out{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+ #myimg{
+    width: 400px;
+    height: 570px;
+    position: absolute;
+    z-index: 3;
+    left: 50px;
+    top: 30px;
+}
+
+#main{
+    position: absolute;
+    right: 450px;
+    top: 100px;
+    z-index: 3;
+    color: aliceblue;
+
+}
+
+h5{
+    color: aqua;
+    position: relative;
+    top: 10px;
+}
+
+span{
+    color: aqua;
+}
+
+#aa{
+    position: absolute;
+    z-index: 3;
+    top: 450px;
+    right: 400px;
+    height: 35px;
+    width: 150px;
+    border: 3px solid aqua;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: aqua;
+    text-decoration: none;
+    padding-top:5px ;
+
+}
+
+#xxx{
+position: absolute;
+z-index: 4;
+right: 5px;
+top: 100px;
+}
+
+.li{
+    position: relative;
+background-color:aqua ;
+height: 35px;
+width: 100px;
+text-align: center;
+list-style: none;
+top: 100px;
+border-radius: 5px;
+}
+
+.a{
+    position: relative;
+    text-decoration: none;
+    top: 8px;
+}
+
+p{
+    position: absolute;
+    top: 100px;
+    z-index: 3;
+    width: 720px;
+    font-size: 1.2em; 
+    text-align: justify;
+}
